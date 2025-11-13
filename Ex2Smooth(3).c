@@ -1,4 +1,7 @@
-
+/*
+Name: Dom
+Description: Control a servo motor using timers and the onboard button the msp-exp430g2et
+*/
 #include <msp430.h>
 
 int main(void)
@@ -63,4 +66,5 @@ P1IES |= BIT3;
 P1IFG = 0;
 
 }
+
 
